@@ -1,0 +1,13 @@
+
+li:first-child{
+    font-weight: bold;
+}
+[target="_blank"]::after{
+    content:"👉";
+}
+li:nth-of-type(2n){
+    font-style: italic;
+}
+li,a:hover{
+    color:red;
+}
